@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a:link{color: black;}
+a:visited{color: black;}
+a:hover{color: red;}
+a:active{color: gray;}
+
+nav{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    display: flex;
+    background-color: white;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 895px;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+}
+section{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    width: 1920px;
+    height: 2121.07px;
+    margin: 0 auto;
+}
+.wrap{
+    position: absolute;
+}
+.img2{
+    position: absolute;
+    left: 242px;
+    width: 455px;
+}
+.img3{
+    position: absolute;
+    left: 733px;
+    width: 455px;
+}
+.img4{
+    position: absolute;
+    left: 1223px;
+    width: 455px;
+}
+.img5{
+    position: absolute;
+    top: 719px;
+    left: 242px;
+    width: 946px;
+}
+.logo{
+    position: absolute;
+    top: 1011.89px;
+    left: 372px;
+    width: 686px;
+}
+.img6{
+    position: absolute;
+    top: 719px;
+    left: 1223px;
+    width: 455px;
+}
+.img7{
+    position: absolute;
+    top: 1438px;
+    left: 242px;
+    width: 455px;
+}
+.img8{
+    position: absolute;
+    top: 1438px;
+    left: 733px;
+    width: 455px;
+}
+.img9{
+    position: absolute;
+    top: 1438px;
+    left: 1223px;
+    width: 455px;
+}
+footer{
+    position: absolute;
+    z-index: 5;
+    top: 2381px;
+    left: 50px;
+    font-weight: 700;
+    font-size: 13px;
+}
